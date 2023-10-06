@@ -8,7 +8,7 @@ void main() async {
 
   runApp(
     MaterialApp(
-      title: 'Firebase CRUD',
+      title: 'UTS-App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
