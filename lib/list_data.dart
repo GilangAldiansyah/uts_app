@@ -55,7 +55,6 @@ class ListData extends StatelessWidget {
                     IconButton(
                       icon: Icon(Icons.delete),
                       onPressed: () {
-                        // Hapus data dari Firestore
                         FirebaseFirestore.instance
                             .collection('data')
                             .doc(data.id)
